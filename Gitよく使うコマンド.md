@@ -138,6 +138,7 @@ git stash pop stash@{0} // スタッシュを指定
 git stash drop // スタッシュを削除
 
 git stash apply // スタッシュを適用
+<<<<<<< HEAD
 
 ## タグ
 
@@ -148,3 +149,5 @@ git tag // タグ一覧表示
 git push origin <タグ名> // タグをpush
 
 git tag -d <タグ名> // タグの削除
+=======
+>>>>>>> practice
