@@ -120,6 +120,9 @@ git revert -m 1 <コミットID>
 
 git reset --hard ORIG_HEAD
 
+### commitコメントの修正
+
+git commit --amend -m "修正後のコメント"
 
 ## コンフリクト
 
@@ -135,3 +138,13 @@ git stash pop stash@{0} // スタッシュを指定
 git stash drop // スタッシュを削除
 
 git stash apply // スタッシュを適用
+
+## タグ
+
+git tag -a <タグ名> -m <コメント> <コミットID> // タグをコミットに付与
+
+git tag // タグ一覧表示
+
+git push origin <タグ名> // タグをpush
+
+git tag -d <タグ名> // タグの削除
