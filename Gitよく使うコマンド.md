@@ -120,6 +120,9 @@ git revert -m 1 <コミットID>
 
 git reset --hard ORIG_HEAD
 
+### commitコメントの修正
+
+git commit --amend -m "修正後のコメント"
 
 ## コンフリクト
 
